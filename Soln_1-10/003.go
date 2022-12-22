@@ -8,7 +8,9 @@ import (
 func isPrime(n int64) bool {
 	var i int64 = 2
 	for ; i < n; i++ {
-		if n%i == 0 { return false }
+		if n%i == 0 {
+			return false
+		}
 	}
 	return true
 }
