@@ -1,11 +1,11 @@
-package main 
+package main
 
 import (
 	"fmt"
 )
 
 func isPrime(n int) bool {
-	for i:=2; i<n; i++ {
+	for i := 2; i < n; i++ {
 		if n%i == 0 {
 			return false
 		}
@@ -16,7 +16,7 @@ func isPrime(n int) bool {
 func main() {
 	ans := 0
 	counter := 0
-	for i:=2; ;i++ {
+	for i := 2; ; i++ {
 		if isPrime(i) {
 			counter++
 			if counter == 10001 {
