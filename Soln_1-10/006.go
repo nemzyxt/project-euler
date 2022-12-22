@@ -7,7 +7,7 @@ import (
 
 func sum_of_squares(n int) int {
 	sum := 0
-	for i:=1; i<=n; i++ {
+	for i := 1; i <= n; i++ {
 		sum += int(math.Pow(float64(i), 2))
 	}
 	return sum
@@ -15,7 +15,7 @@ func sum_of_squares(n int) int {
 
 func square_of_sum(n int) int {
 	sum := 0
-	for i:=1; i<=n; i++ {
+	for i := 1; i <= n; i++ {
 		sum += i
 	}
 	return int(math.Pow(float64(sum), 2))
